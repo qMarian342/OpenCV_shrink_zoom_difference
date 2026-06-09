@@ -8,7 +8,6 @@ The application allows users to:
 - Zoom images
 - Shrink images
 - Compare interpolation methods visually
----
 
 ## Features
 
@@ -22,27 +21,20 @@ The application allows users to:
 - Produces smoother results
 - Better image quality during scaling
 
----
 ## Technologies Used
 - C++
 - OpenCV
----
 
 ## Project Structure
 
 - `resizeNearest()`  
   Implements nearest neighbor interpolation.
-
 - `resizeBilinear()`  
   Implements bilinear interpolation.
-
 - `testZoomShrink()`  
   Loads an image and applies scaling.
-
 - `main()`  
   Console menu for interacting with the application.
-
----
 
 ## How It Works
 
@@ -55,10 +47,7 @@ The application allows users to:
    - Nearest Neighbor result
    - Bilinear Interpolation result
 
----
-
 ## Example
-
 Scale factor:
 ```txt
 2.0
