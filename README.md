@@ -1,0 +1,1 @@
+# openCV-shrink_zoom_difference
